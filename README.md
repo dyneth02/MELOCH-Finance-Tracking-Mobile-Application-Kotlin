@@ -3,7 +3,7 @@
 **Meloch** is a modern, intuitive Android application built with Kotlin, designed to help users take full control of their personal finances. With a clean UI, secure per‑user data isolation, and powerful features like budgeting, transaction tracking, wallet card management, and exportable reports, Meloch turns everyday financial management into a seamless experience.
 
 <p align="center">
-  <img src="Screenshots/Gemini_Generated_Image_4rsk9e4rsk9e4rsk.jpg" width="200" alt="Product Display">
+  <img src="Screenshots/Gemini_Generated_Image_4rsk9e4rsk9e4rsk.jpg" alt="Product Display">
 </p>
 
 ---
