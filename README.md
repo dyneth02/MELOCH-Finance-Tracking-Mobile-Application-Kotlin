@@ -1,12 +1,10 @@
-# Meloch – Personal Finance Tracker
-
-<p align="center">
-  <img src="Screenshots/Screenshot_20250422_153410_com.example.meloch.jpg" width="200" alt="Meloch Splash">
-  <img src="Screenshots/Screenshot_20250422_153518_com.example.meloch.jpg" width="200" alt="Dashboard">
-  <img src="Screenshots/Screenshot_20250422_153748_com.example.meloch.jpg" width="200" alt="Add Record">
-</p>
+# 📱 Meloch – Personal Finance Tracker 💸
 
 **Meloch** is a modern, intuitive Android application built with Kotlin, designed to help users take full control of their personal finances. With a clean UI, secure per‑user data isolation, and powerful features like budgeting, transaction tracking, wallet card management, and exportable reports, Meloch turns everyday financial management into a seamless experience.
+
+<p align="center">
+  <img src="Screenshots/Gemini_Generated_Image_9cetyx9cetyx9cet.png" width="200" alt="Product Display">
+</p>
 
 ---
 
@@ -20,6 +18,12 @@
 - **Dashboard Overview** – Real-time view of total balance, budget status, and category-wise spending.
 - **Transaction History** – Chronologically grouped records with filtering by date.
 - **Statistics & Charts** – Pie charts and bar graphs for income vs. expense and category breakdowns.
+
+<p align="center">
+  <img src="Screenshots/Screenshot_20250422_153410_com.example.meloch.jpg" width="200" alt="Meloch Splash">
+  <img src="Screenshots/Screenshot_20250422_153518_com.example.meloch.jpg" width="200" alt="Dashboard">
+  <img src="Screenshots/Screenshot_20250422_153748_com.example.meloch.jpg" width="200" alt="Add Record">
+</p>
 
 ### 🚀 **Bonus Features**
 - **Data Backup (JSON)** – Export all financial data to a portable JSON file.
