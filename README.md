@@ -65,3 +65,72 @@
 ---
 
 ## 📁 Project Structure
+```
+
+  meloch/
+  ├── app/src/main/java/com/example/meloch/
+  │ ├── data/
+  │ │ ├── PreferenceManager.kt
+  │ │ ├── NotificationHelper.kt
+  │ │ ├── ProfileNotificationHelper.kt
+  │ │ └── JSONBackupGenerator.kt
+  │ ├── ui/
+  │ │ ├── LoginActivity.kt
+  │ │ ├── MainActivity.kt
+  │ │ ├── AddRecordFragment.kt
+  │ │ ├── BudgetsFragment.kt
+  │ │ └── StatisticsFragment.kt
+  │ └── util/
+  │ └── Extensions.kt
+  ├── res/
+  │ ├── layout/ # XML layouts
+  │ ├── values/ # strings.xml, colors.xml
+  │ └── drawable/ # Icons & graphics
+  └── assets/ # PDF templates
+
+```
+
+
+---
+
+## 🔧 Setup & Installation **
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/meloch.git
+   ```
+
+2. **Open in Android Studio**
+3. **Sync Gradle and install required dependencies**
+4. **Run on an emulator or physical device (API 24+)**
+5. **Note: The app uses SharedPreferences for local storage. No external database or internet permission is required.**
+
+---
+
+**📊 Data Persistence**
+
+- All user data (transactions, budgets, cards, balance) is stored in SharedPreferences with email‑prefixed keys.
+- Each user’s data is completely isolated.
+- Backup files (JSON/PDF) are saved to the device’s internal storage and can be shared externally.
+
+---
+
+**📬 Notifications**
+
+Meloch uses two notification channels:
+
+  - Budget Alerts – Low budget warnings and reset confirmations.
+  - Profile Notifications – Feedback submission acknowledgments.
+
+---
+
+**📄 License**
+
+This project is developed for educational and portfolio purposes. Feel free to explore, modify, and extend the code.
+
+---
+
+**👤 Author**
+
+*D G A D Hirusha – IT23183018*
+*Year 02, Semester 02 – Mobile Application Development Lab Exam 03 Submission*
