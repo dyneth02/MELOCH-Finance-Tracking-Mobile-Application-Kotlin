@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Background Circle -->
+    <path
+        android:fillColor="@color/primary_dark"
+        android:pathData="M60,60m-60,0a60,60 0,1 1,120 0a60,60 0,1 1,-120 0" />
+
+    <!-- Inner Circle -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M60,60m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0" />
+
+    <!-- Coin Stack -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,30m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" />
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M60,30m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,50m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" />
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M60,50m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,70m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" />
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M60,70m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" />
+
+    <!-- Dollar Sign -->
+    <path
+        android:fillColor="#7A5FFF"
+        android:pathData="M60,70m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,67L62,67L62,69L60,69L60,71L62,71L62,73L58,73L58,71L60,71L60,69L58,69Z" />
+
+</vector>
