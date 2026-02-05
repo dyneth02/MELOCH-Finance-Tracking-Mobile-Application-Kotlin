@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Login and Registration -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="login_subtitle">Welcome back! Please sign in to continue</string>
+    <string name="register_subtitle">Create a new account to get started</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="register_now">Register Now</string>
+    <string name="login_now">Login Now</string>
+    <string name="create_account">Create Account</string>
+    <string name="password_hint">Password must be at least 8 characters long</string>
+    <string name="invalid_email">Please enter a valid email address</string>
+    <string name="invalid_password">Password must be at least 8 characters long</string>
+    <string name="invalid_username">Please enter a username</string>
+    <string name="login_success">Login successful</string>
+    <string name="login_failed">Invalid email or password</string>
+    <string name="register_success">Registration successful</string>
+    <string name="email_exists">Email already exists</string>
+
+    <!-- Profile Fragment -->
+    <string name="profile">Profile</string>
+    <string name="account_information">Account Information</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="rate_app">Rate Our App</string>
+    <string name="rate_app_description">How would you rate your experience with Meloch? Your feedback helps us improve!</string>
+    <string name="review_hint">Tell us what you think (optional)</string>
+    <string name="submit_review">Submit Review</string>
+    <string name="logout">Logout</string>
+    <string name="delete_account">Delete My Account</string>
+    <string name="delete_account_confirmation">Are you sure you want to delete your account? This action cannot be undone and all your data will be permanently deleted.</string>
+    <string name="delete_account_success">Your account has been deleted successfully</string>
+    <string name="review_submitted">Thank you for your feedback!</string>
+    <string name="review_low_rating">Sorry for the inconvenience. We will try to make your user experience better.</string>
+    <string name="review_medium_rating">Good! We will try to improve your experience further.</string>
+    <string name="review_high_rating">Great! Keep in touch with us to make your life easier and safer.</string>
+</resources>
