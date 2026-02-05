@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Wallet Cards"
+            android:textColor="@color/text_primary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/addCardButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/circle_background"
+            android:src="@drawable/ic_add"
+            app:tint="@color/primary" />
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_marginTop="80dp"
+        android:paddingBottom="80dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Credit Card Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_tile_background"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="My Credit Card"
+                        android:textColor="@color/text_primary"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_alignParentStart="true" />
+
+                    <ImageButton
+                        android:id="@+id/creditCardOptionsMenu"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_more_vert"
+                        app:tint="@color/text_secondary"
+                        android:layout_alignParentEnd="true" />
+
+                    <ImageButton
+                        android:id="@+id/creditCardVisibilityToggle"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_visibility_off"
+                        app:tint="@color/text_secondary"
+                        android:layout_marginEnd="16dp"
+                        android:layout_toStartOf="@id/creditCardOptionsMenu" />
+                </RelativeLayout>
+
+                <!-- Credit Card UI -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="16dp"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="4dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/credit_card_background"
+                        android:padding="16dp">
+
+                        <TextView
+                            android:id="@+id/creditCardBankName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="AMERICAN EXPRESS"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:layout_alignParentTop="true" />
+
+                        <TextView
+                            android:id="@+id/creditCardNumber"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="**** **** **** 1234"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            android:layout_centerVertical="true" />
+
+                        <TextView
+                            android:id="@+id/creditCardholderName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="John Doe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:layout_above="@id/creditCardCvv" />
+
+                        <TextView
+                            android:id="@+id/creditCardCvv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="CVV: ***"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+                            android:layout_alignParentBottom="true" />
+
+                        <TextView
+                            android:id="@+id/creditCardExpiry"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="**/**"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!-- Debit Card Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_tile_background"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_marginTop="16dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="My Debit Card"
+                        android:textColor="@color/text_primary"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_alignParentStart="true" />
+
+                    <ImageButton
+                        android:id="@+id/debitCardOptionsMenu"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_more_vert"
+                        app:tint="@color/text_secondary"
+                        android:layout_alignParentEnd="true" />
+
+                    <ImageButton
+                        android:id="@+id/debitCardVisibilityToggle"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_visibility_off"
+                        app:tint="@color/text_secondary"
+                        android:layout_marginEnd="16dp"
+                        android:layout_toStartOf="@id/debitCardOptionsMenu" />
+                </RelativeLayout>
+
+                <!-- Debit Card UI -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="16dp"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="4dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/debit_card_background"
+                        android:padding="16dp">
+
+                        <TextView
+                            android:id="@+id/debitCardBankName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="AMERICAN EXPRESS"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:layout_alignParentTop="true" />
+
+                        <TextView
+                            android:id="@+id/debitCardNumber"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="**** **** **** 1234"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            android:layout_centerVertical="true" />
+
+                        <TextView
+                            android:id="@+id/debitCardholderName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="John Doe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:layout_above="@id/debitCardCvv" />
+
+                        <TextView
+                            android:id="@+id/debitCardCvv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="CVV: ***"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+                            android:layout_alignParentBottom="true" />
+
+                        <TextView
+                            android:id="@+id/debitCardExpiry"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="**/**"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <!-- Bottom Navigation -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/background"
+        app:itemIconTint="@color/bottom_nav_item_color"
+        app:itemTextColor="@color/bottom_nav_item_color"
+        app:menu="@menu/bottom_navigation_menu" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addTransactionFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="80dp"
+        android:layout_marginLeft="340dp"
+        android:backgroundTint="@color/primary"
+        android:src="@drawable/ic_add"
+        app:layout_anchor="@+id/bottomNavigation"
+        app:layout_anchorGravity="center"
+        app:tint="@color/white" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
