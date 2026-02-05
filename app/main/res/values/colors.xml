@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Theme Colors -->
+    <color name="background">#08090C</color>
+    <color name="surface">#121418</color>
+    <color name="primary">#7A5FFF</color>
+    <color name="primary_variant">#6A4FEF</color>
+    <color name="primary_dark">#5A3FDF</color>
+    <color name="secondary">#4A4FE0</color>
+    <color name="card_background">#121418</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#80FFFFFF</color>
+    <color name="text_hint">#60FFFFFF</color>
+    <color name="orange">#FF5722</color>
+
+    <!-- Category Colors -->
+    <color name="category_entertainment">#4CAF50</color>
+    <color name="category_food">#FF9800</color>
+    <color name="category_transport">#2196F3</color>
+    <color name="category_health">#F44336</color>
+    <color name="category_shopping">#9C27B0</color>
+    <color name="category_side_business">#FFC107</color>
+    <color name="category_salary">#4CAF50</color>
+    <color name="category_vacation">#3F51B5</color>
+
+    <!-- Transaction Colors -->
+    <color name="income_green">#4CAF50</color>
+    <color name="expense_red">#F44336</color>
+    <color name="divider">#1FFFFFFF</color>
+
+    <!-- Progress Bar -->
+    <color name="progress_background">#1AFFFFFF</color>
+    <color name="progress_foreground">#7A5FFF</color>
+
+    <!-- System Colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>
