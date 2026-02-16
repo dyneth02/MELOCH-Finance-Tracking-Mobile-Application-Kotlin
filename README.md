@@ -97,7 +97,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/dyneth02/meloch.git
+   git clone https://github.com/dyneth02/MELOCH-Finance-Tracking-Mobile-Application-Kotlin.git
    ```
 
 2. **Open in Android Studio**
