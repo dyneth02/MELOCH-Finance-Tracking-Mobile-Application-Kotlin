@@ -97,7 +97,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/meloch.git
+   git clone https://github.com/dyneth02/meloch.git
    ```
 
 2. **Open in Android Studio**
